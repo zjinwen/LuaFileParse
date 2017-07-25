@@ -1,5 +1,5 @@
 local fileOpen = io.open("E:\\zh\\test", "r");
-local data = fileOpen:read("*a"); -- 读取所有内容
+local data = fileOpen:read("*a"); 
 fileOpen:close();
 
 
